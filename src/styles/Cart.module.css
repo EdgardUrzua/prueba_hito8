@@ -1,0 +1,58 @@
+.cart-container {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.cart-item {
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.cart-message {
+  font-size: 1.25rem;
+  color: green;
+  margin-bottom: 20px;
+}
+
+/* Estilo para los botones +, - y eliminar */
+.cart-button {
+  width: 50px;
+  background-color: #007bff; 
+  color: white; /* Color del texto */
+  border: none; 
+  padding: 10px 15px; 
+  border-radius: 5px;
+  cursor: pointer; /* Cambiar el cursor a pointer */
+  margin-right: 5px; 
+}
+
+.cart-button:hover {
+  background-color: #0056b3; 
+}
+
+.cart-button-danger {
+  margin-top: 10px;
+  width: 150px;
+  background-color: #dc3545; /* Color de fondo para el botón "Eliminar" */
+  color: white;
+}
+
+.cart-button-danger:hover {
+  background-color: #c82333; /* Color al hacer hover en el botón "Eliminar" */
+}
+
+/* Estilo para boton pagar*/
+.btn-success {
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
